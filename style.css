@@ -45,25 +45,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.login-button{
-    display: flex;
-    align-items: center;
-}
-.login-button button{
-    border: none;
-    background-color: #6c63ff;
-    padding: 0.4rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.login-button button:hover{
-    background-color: #6b63fff1;
-}
-.login-button button:hover a{
-    text-decoration: none;
-    font-weight: 500;
-    color: white;
-}
+
 .form-header h1::after{
     content: '';
     display: block;
@@ -77,19 +59,19 @@ body{
 .input-group{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     padding: 1rem 0;
 }
 
 .input-box{
     display: flex;
-    flex-direction: column;
+    flex-direction:column ;
     margin-bottom: 1.1rem;
 }
 .input-box input{
     border: none;
-    border-radius: 10px;
-    box-shadow: 1px 6px #0000001c;
+    border-radius: 2px;
+    box-shadow: 1px 1px 6px #0000001c;
 }
 .input-box input:hover{
     background-color: #eeeeee75;
@@ -103,7 +85,7 @@ body{
 }
 .pronto-button button{
     width: 100%;
-    margin-top: 0.2rem;
+    margin-top: 1px;
     border: none;
     background-color: #6c63ff;
     padding: 0.6rem;
